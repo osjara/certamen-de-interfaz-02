@@ -103,11 +103,15 @@ nav {
     text-align: center;
 }
 
-p.copyright {
-    background-color: #2e2e2e;
+.copyright {
+    background-color: #212121;
+}
+
+.copyright p {
     color: #ffffff;
-    padding: 10px 0;
     text-align: center;
+    padding: 10px 0 ;
+    margin: 0;
 }
 
 .rrss-footer a {
@@ -131,7 +135,7 @@ p.copyright {
 
 footer i {
     font-size: 50px;
-    
+    margin-left: 30px;
 }
 
 /** formulario **/
