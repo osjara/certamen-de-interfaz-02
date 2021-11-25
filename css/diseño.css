@@ -459,3 +459,10 @@ select:active {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.viviendas-h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--cafe);
+    text-align: center;
+    padding: 35px;  
+}
