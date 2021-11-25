@@ -1,67 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMW Concept Car</title>
     <link rel="stylesheet" href="css/diseño.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
 </head>
+
 <body>
     <header>
-        <h1>Inmobiliaria Juan Diaz <span>ltda.</span></h1> 
-        <h2>Encuentra tu Hogar a un buen precio</h2>
+        <div class="barra productos">
+            <a href="index.html"><img src="img/logo_BMW.png" alt="Logo BMW"></a>
+            <nav class="navegacion">
+                <a href="Productos.html">Productos</a>
+                <a href="registro.html">Registro</a>
+                <a href="">Iniciar Sesión</a>
+            </nav>
+        </div>
     </header>
-    
-<div>prueba desde note</div>
 
-   <nav>
-        <a href="index.html">Home</a>
-        <a href="vivienda.html">Nuestras viviendas</a>
-        <a href="sectores.html">Sectores</a>
-        <a href="contacto.html">Contacto</a>
-   </nav>
-   <section>
-    <h2>Registrate</h2>
-    <form>
-        <fieldset>
-            <legend>Unete y comienza a soñar con el hogar propio</legend>
-        <div>
-            <label>Nombre</label>
-            <input type="text" placeholder="Tu nombre">
-        </div>
+    <section class="registro">
+        <div class="form-registro">
+            <div class="banner-form">
+                <h1>Registrate</h1>
+                <i class="fa fa-user"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis obcaecati odio ullam modi! Optio commodi saepe tenetur ipsum autem culpa illum doloribus! Rem cupiditate ipsum repellendus veritatis voluptatibus quidem consequatur.</p>
+            </div>
+            <div class="formulario">
 
-        <div>
-            <label>Apellido</label>
-            <input type="text" placeholder="Tu apellido">
-        </div>
+                <form action="">
+                    <div class="campo">
+                        <input type="text" class="form-control" placeholder="RUT" required>
+                    </div>
+                    <div class="campo">
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="campo">
+                        <input type="text" class="form-control" placeholder="Apellido" required>
+                    </div>
+                    <div class="campo">
+                        <input type="phone" class="form-control" maxlength="9" placeholder="Telefono" required>
+                    </div>
+                    <div class="campo">
+                        <label for="fecha"> Fecha de nacimiento</label><br>
+                        <input type="date" name="fecha" required>
+                    </div>
+                    <div class="campo-auto">
+                        <p>¿Posee automovil?</p>
+                        <label class="switch">
+                            <input type="checkbox" name="auto" id="automovil">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
 
-        <div>
-            <label>Rut</label>
-            <input type="text" placeholder="12345678-9">
+                    <div class="campo-sexo">
+                        <p>Sexo</p>
+                        <input type="radio" id="Masculino" name="sexo" value="Masculino" required>
+                        <label for="Masculino">Masculino</label>
+                        <input type="radio" id="Femenino" name="sexo" value="Femenino" required>
+                        <label for="Femenino">Femenino</label>
+                    </div>
+                    <div class="campo">
+                        <label for="txtPasswd">Password</label><br>
+                        <input class="form-control" type="password" id="txtPassword" name="Password" required>
+                    </div>
+                    <input type="submit" class="button" value="Enviar">
+                </form>
+            </div>
         </div>
+    </section>
 
-        <div>
-            <label>Fecha de nacimiento</label>
-            <input type="date" name="" id="">
-        </div>
-        
-        </div>
-            <label>Correo Electrónico</label>
-            <input type="email" name="" id="" placeholder="Tu email">
-        <div>
-        
-        <div>
-            <label>Número de telefono</label>
-            <input type="tel" placeholder="+56 987654321">
-        </div>
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="logo-footer">
+                <a href="index.html"><img src="img/logo_BMW.png" alt="Logo BMW"></a>
+            </div>
+            <div class="rrss-footer">
+                <h3>Siguenos</h3>
+                <nav>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 
-        <div>
-            <input type="submit" value="Registrarse">
-        </div>
-        </fieldset>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 
-    </form>
-</section>
+                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+
+                    <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </nav>
+
+            </div>
+            <div class="about-footer">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eligendi, ducimus atque suscipit exercitationem quisquam aspernatur voluptates, quo facilis, quod sit inventore mollitia impedit sapiente. Nam excepturi assumenda necessitatibus
+                    quo!
+                </p>
+            </div>
+
+        </div>
+        <p class="copyright">
+            Todos los derechos Reservados Ozcorp 2021.
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
