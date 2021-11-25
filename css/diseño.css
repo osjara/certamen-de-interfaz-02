@@ -525,3 +525,17 @@ select:active {
     text-align: center;
     padding: 35px;  
 }
+
+
+
+.menucentrado{
+    padding: 40px;
+    text-align: center;
+    grid-gap: 35px;
+    
+}
+.custome-container{
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 150px;
+  }
