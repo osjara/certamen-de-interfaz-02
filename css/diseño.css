@@ -25,3 +25,9 @@ nav {
 .fab {
     font-size: 70px;
 }
+.titulocarrusel{
+    color:var(--blanco);
+}
+.textocarrusel{
+    color:var(--blanco);
+}
