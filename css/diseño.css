@@ -1,3 +1,9 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
 
 :root{
     --cafe: #AD3A03;
