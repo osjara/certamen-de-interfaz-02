@@ -61,29 +61,36 @@ nav {
     background-color: var(--celeste2);
 }
 
+@media (min-width: 992px) {
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 20px !important
+    }
+    .navegacion a:after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px azure;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+    
+    .navegacion a:hover::after {
+        transform: scaleX(1);
+    }
+}
+
 .navegacion a {
     display: inline-block;
     color: azure;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    margin-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
     transition: border-bottom .5s ease-in-out;
 }
 
-.navegacion a:after {
-    display: block;
-    content: '';
-    border-bottom: solid 3px azure;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out;
-}
 
-.navegacion a:hover::after {
-    transform: scaleX(1);
-}
 
 .barra a img {
     margin: 10px;
