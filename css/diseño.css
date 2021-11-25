@@ -1,0 +1,18 @@
+
+:root{
+    --cafe: #9E490D;
+    --celeste: #1C939E;
+    --cafe2: #EB965A;
+    --celeste2: #61F2FF;
+    --blanco: #ffffff;
+    --negro: #212121;
+}
+h1{
+text-align: center;
+color: var(--cafe);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+}
+span{
+
+font-size: 15px;
+}
