@@ -23,11 +23,6 @@ span{
 font-size: 15px;
 }
 
-
-nav {
-    padding: auto;
-}
-
 .titulocarrusel{
     color:var(--blanco);
 }
@@ -96,57 +91,15 @@ nav {
     margin: 10px;
     height: 50px;
 }
-/**footer**/
 
-.site-footer {
-    background-color: var(--negro);
-    padding: 0
-}
+/** carrusel **/
 
-.site-footer p {
-    color: #ffffff;
-    font-weight: 400;
-    font-family: 'PT Sans', sans-serif;
-    text-align: center;
-}
-
-.copyright {
-    background-color: #212121;
-}
-
-.copyright p {
-    color: #ffffff;
-    text-align: center;
-    padding: 10px 0 ;
-    margin: 0;
-}
-
-.rrss-footer a {
-    color: #ffffff;
-    font-size: 40px;
-    margin-right: 50px;
-}
-
-.rrss-footer a:last-child {
-    margin-right: 0;
-}
-
-.logo-footer {
-    height: 250px;
-}
-
-.logo-footer img {
-    height: 120px;
-}
-
-footer h3 {
-    color: var(--blanco);
-}
-
-footer i {
-    font-size: 50px;
-    margin-left: 30px;
-    color: var(--celeste);
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 /** formulario **/
@@ -575,4 +528,58 @@ select:active {
 .txtcondominio{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+}
+
+
+/**footer**/
+
+.site-footer {
+    background-color: var(--negro);
+    padding: 0
+}
+
+.site-footer p {
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.copyright {
+    background-color: #212121;
+}
+
+.copyright p {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0 ;
+    margin: 0;
+}
+
+.rrss-footer a {
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.rrss-footer a:last-child {
+    margin-right: 0;
+}
+
+.logo-footer {
+    height: 250px;
+}
+
+.logo-footer img {
+    height: 120px;
+}
+
+footer h3 {
+    color: var(--blanco);
+}
+
+footer i {
+    font-size: 50px;
+    margin-left: 30px;
+    color: var(--celeste);
 }
