@@ -111,6 +111,20 @@ font-size: 15px;
 .proyectos-destacados {
     height: 100vh;
     background-color: var(--blanco);
+    position: relative;
+    z-index: 1;
+}
+
+.proyectos-destacados::after {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 45%;
+    bottom: 45%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    color: var(--celeste);
 }
 
 
