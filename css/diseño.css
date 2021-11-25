@@ -312,3 +312,221 @@ select:active {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+.contenido-banner {
+    height: 100vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    grid-auto-rows: 200px;
+}
+
+.img {
+    align-self: start;
+    margin-top: 200px;
+    width: 120%;
+}
+
+.banner {
+    align-self: stretch;
+    color: #ffffff;
+    padding: 200px 100px;
+    text-align: center;
+}
+
+.banner h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.banner p {
+    font-size: 16px;
+    padding: 0 30px;
+}
+
+.button {
+    padding: 10px 40px;
+    color: #06ADF1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 3px solid #06ADF1;
+    border-radius: 30px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #06ADF1;
+}
+
+.contenido {
+    height: 600px;
+    background-color: #008AC9;
+}
+
+.contenido-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contenido-izq {
+    color: #ffffff;
+    padding: 100px;
+}
+
+.contenido-izq h2 {
+    text-transform: capitalize;
+    font-size: 40px;
+    padding: 80px 0 20px 0;
+}
+
+.contenido-izq p {
+    font-size: 16px;
+}
+
+.contenido-der {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.contenido-der iframe {
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.seccion-productos {
+    height: 150vh;
+    text-align: center;
+}
+
+.seccion-productos h1 {
+    margin-top: 50px;
+    color: #008AC9;
+    font-size: 50px;
+}
+
+.galeria {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 50px;
+    margin: 0 auto;
+    grid-gap: 30px;
+}
+
+.galeria img {
+    height: 300px;
+}
+
+.galeria h3 {
+    color: #06ADF1;
+    font-size: 25px;
+}
+
+.galeria p {
+    margin: 10px 30px;
+}
+
+.producto {
+    margin-top: 50px;
+}
+
+.precio {
+    color: #06ADF1;
+    font-size: 25px;
+}
+
+.registro {
+    height: 800px;
+}
+
+.form-registro {
+    margin: 50px auto;
+    width: 80%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.banner-form {
+    background-color: #008AC9;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.banner-form i {
+    margin: 30px;
+    color: #ffffff;
+    font-size: 200px;
+}
+
+.banner-form p {
+    color: white;
+    padding: 50px;
+}
+
+.banner-form h1 {
+    color: #F2F4F3;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.campo {
+    margin-top: 30px;
+}
+
+.campo label {
+    font-size: 16px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: rgb(15, 3, 3);
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.form-control::placeholder {
+    color: #4ac3f3;
+}
+
+.form-control:focus {
+    border-bottom-color: #06ADF1;
+}
+
+.campo [type="date"] {
+    width: 92%;
+}
+
+.campo-auto {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.viviendas-h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: var(--cafe);
+    text-align: center;
+    padding: 35px;  
+}
+>>>>>>> e4864483f0b24e02372d8a464af9ab27c0f895ef
