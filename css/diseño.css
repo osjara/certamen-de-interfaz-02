@@ -139,10 +139,14 @@ nav {
     height: 120px;
 }
 
+footer h3 {
+    color: var(--blanco);
+}
 
 footer i {
     font-size: 50px;
     margin-left: 30px;
+    color: var(--celeste);
 }
 
 /** formulario **/
