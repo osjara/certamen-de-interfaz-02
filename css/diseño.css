@@ -544,3 +544,14 @@ select:active {
     padding-right: 100px;
     padding-left: 150px;
   }
+
+.titulosector{
+    padding-top: 650px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--blanco);
+
+}
+.txtcondominio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
