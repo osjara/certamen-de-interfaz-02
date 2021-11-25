@@ -36,10 +36,20 @@ nav {
 
 .barra {
     display: flex;
+    flex-wrap: inherit;
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+    .navbar-collapse{
+        flex-grow: 0 !important;
+    }
+    .container-fluid {
+        justify-content: space-around !important;
+    }
+
+
 
 .barra.productos {
     background-color: var(--celeste2);
