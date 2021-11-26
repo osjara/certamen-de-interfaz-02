@@ -628,17 +628,19 @@ footer i {
     color: var(--celeste);
 }
 
+/** sector **/
+
 .condominios-img img{
     position: absolute;
-    width: 10px;
-    height: 10px;
-top: 120px; left: 600px;
+    width: 100%;
+    height: auto;
+    top: 120px; left: 600px;
 }
 .condominios-img2 img{
     position: absolute;
-    width: 10px;
-    height: 10px;
-left: 150px;
+    width: 100%;
+    height: auto;
+    left: 150px;
 }
 .txtcondominio{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -660,4 +662,20 @@ left: 150px;
     background-color: rgba(0, 0, 0, 0.4);
     color: var(--blanco);
 
+}
+
+@media (max-width: 1430px) {
+    .infocondominio {
+        position: static;
+    }
+    .infocondominio2 {
+        position: static;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sectores .row>* {
+        flex-shrink: 0 !important;
+        width: 100% !important;
+    }
 }
