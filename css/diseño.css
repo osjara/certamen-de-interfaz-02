@@ -562,10 +562,6 @@ select:active {
 
 
 }
-.txtcondominio{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-}
 
 
 /**footer**/
@@ -619,4 +615,25 @@ footer i {
     font-size: 50px;
     margin-left: 30px;
     color: var(--celeste);
+}
+
+.condominios-img img{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+top: 120px; left: 600px;
+}
+.txtcondominio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+
+.infocondominio{
+    position: relative;
+    padding-left: 100px;
+    top: 120px; left: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--blanco);
+
 }
