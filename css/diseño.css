@@ -109,10 +109,14 @@ font-size: 15px;
 /** seccion proyectos destacados**/
 
 .proyectos-destacados {
-    height: 100vh;
+    height: auto;
     background-color: var(--blanco);
     position: relative;
     z-index: 1;
+}
+
+.proyectos-destacados .titulo-pry {
+    margin-top: 30px;
 }
 
 .proyectos-destacados::after {
@@ -127,6 +131,14 @@ font-size: 15px;
     color: var(--celeste);
 }
 
+.proyectos-destacados .card img {
+    height: auto;
+    width: 100%;
+}
+
+.proyectos-destacados .card {
+    margin: 30px 0;
+}
 
 /** formulario **/
 
