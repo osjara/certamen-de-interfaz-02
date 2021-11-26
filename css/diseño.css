@@ -461,7 +461,7 @@ select:active {
 }
 
 .registro {
-    height: 800px;
+    height: auto;
 }
 
 .form-registro {
