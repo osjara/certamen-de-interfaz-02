@@ -535,12 +535,19 @@ select:active {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/** viviendas **/
+
 .viviendas-h2{
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--cafe);
     text-align: center;
     padding: 35px;  
+}
+
+.viviendas img {
+    height: auto;
+    width: 100%;
 }
 
 
@@ -599,12 +606,16 @@ select:active {
     margin-right: 0;
 }
 
-.logo-footer {
-    height: 250px;
+.logo-footer img {
+    height: auto;
+    width: 100%;
 }
 
-.logo-footer img {
-    height: 120px;
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        align-items: center;
+    }
 }
 
 footer h3 {
