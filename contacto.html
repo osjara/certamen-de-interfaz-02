@@ -34,52 +34,55 @@
     </header>
 
     <section class="registro">
-        <div class="form-registro">
-            <div class="banner-form">
-                <h1>Registrate</h1>
-                <i class="fa fa-user"></i>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis obcaecati odio ullam modi! Optio commodi saepe tenetur ipsum autem culpa illum doloribus! Rem cupiditate ipsum repellendus veritatis voluptatibus quidem consequatur.</p>
-            </div>
-            <div class="formulario">
-
-                <form action="">
-                    <div class="campo">
-                        <input type="text" class="form-control" placeholder="RUT" required>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-5 mt-md-4 mb-5">
+                    <div class="card bg-dark text-white">
+                        <img src="img/contacto.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                          <h2 class="card-title text-center">Contactanos</h5>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="formulario">
+        
+                        <form action="">
+                            <div class="campo">
+                                <input type="text" class="form-control" placeholder="RUT" required>
+                            </div>
+                            <div class="campo">
+                                <input type="text" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="campo">
+                                <input type="text" class="form-control" placeholder="Apellido" required>
+                            </div>
+                            <div class="campo">
+                                <input type="phone" class="form-control" maxlength="9" placeholder="Telefono" required>
+                            </div>
+                            <div class="campo">
+                                <label for="fecha"> Fecha de nacimiento</label><br>
+                                <input type="date" name="fecha" required>
+                            </div>
+                            <div class="campo-auto">
+                                <p>¿Necesita finanzamiento?</p>
+                                <label class="switch">
+                                    <input type="checkbox" name="auto" id="automovil">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+        
+                            <div class="campo-sexo">
+                                <p>Sexo</p>
+                                <input type="radio" id="Masculino" name="sexo" value="Masculino" required>
+                                <label for="Masculino">Masculino</label>
+                                <input type="radio" id="Femenino" name="sexo" value="Femenino" required>
+                                <label for="Femenino">Femenino</label>
+                            </div>
+                            <input type="submit" class="button" value="Enviar">
+                        </form>
                     </div>
-                    <div class="campo">
-                        <input type="text" class="form-control" placeholder="Nombre" required>
-                    </div>
-                    <div class="campo">
-                        <input type="text" class="form-control" placeholder="Apellido" required>
-                    </div>
-                    <div class="campo">
-                        <input type="phone" class="form-control" maxlength="9" placeholder="Telefono" required>
-                    </div>
-                    <div class="campo">
-                        <label for="fecha"> Fecha de nacimiento</label><br>
-                        <input type="date" name="fecha" required>
-                    </div>
-                    <div class="campo-auto">
-                        <p>¿Posee automovil?</p>
-                        <label class="switch">
-                            <input type="checkbox" name="auto" id="automovil">
-                            <span class="slider round"></span>
-                        </label>
-                    </div>
-
-                    <div class="campo-sexo">
-                        <p>Sexo</p>
-                        <input type="radio" id="Masculino" name="sexo" value="Masculino" required>
-                        <label for="Masculino">Masculino</label>
-                        <input type="radio" id="Femenino" name="sexo" value="Femenino" required>
-                        <label for="Femenino">Femenino</label>
-                    </div>
-                    <div class="campo">
-                        <label for="txtPasswd">Password</label><br>
-                        <input class="form-control" type="password" id="txtPassword" name="Password" required>
-                    </div>
-                    <input type="submit" class="button" value="Enviar">
-                </form>
+                </div>
             </div>
         </div>
     </section>

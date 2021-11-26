@@ -202,11 +202,11 @@ font-size: 15px;
 }
 
 .form-control::placeholder {
-    color: #4ac3f3;
+    color: var(--celeste);
 }
 
 .form-control:focus {
-    border-bottom-color: #06ADF1;
+    border-bottom-color:var(--celeste2);
 }
 
 .campo [type="date"] {
@@ -253,11 +253,11 @@ font-size: 15px;
 }
 
 input:checked+.slider {
-    background-color: #008AC9;
+    background-color: var(--celeste2);
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #008AC9;
+    box-shadow: 0 0 1px var(--celeste2);
 }
 
 input:checked+.slider:before {
@@ -304,7 +304,7 @@ select {
 
 input:focus {
     outline: 0;
-    border-color: #008AC9;
+    border-color: var(--celeste2);
 }
 
 input[type="radio"],
@@ -316,9 +316,9 @@ input[type="radio"]:checked+label,
 input:checked+label:before,
 select:focus,
 select:active {
-    background-color: #008AC9;
+    background-color: var(--celeste2);
     color: #fff;
-    border-color: #008AC9;
+    border-color: var(--celeste2);
 }
 
 .formulario .button {
@@ -461,7 +461,7 @@ select:active {
 }
 
 .registro {
-    height: 800px;
+    height: auto;
 }
 
 .form-registro {
