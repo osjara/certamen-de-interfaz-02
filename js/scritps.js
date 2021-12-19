@@ -1,3 +1,4 @@
+/*
 function dgv(T)    //digito verificador
 { 
     var M=0,S=1;
@@ -5,10 +6,17 @@ function dgv(T)    //digito verificador
     S=(S+T%10*(9-M++%6))%11;
     alert(S?S-1:'k');
  }
+*/
 
 
- function validar() {
-    var rut = document.getElementById("rut").value;
+
+ const inputRut = document.querySelector(".rut");
+
+ inputRut.addEventListener('change', updateRut);
+
+ function updateRut(e) {
+    console.log(e.target.value);
+    var rut = e.target.value;
     var valor = rut.replaceAll('.','');
     valor = valor.replace('-','');
     cuerpo = valor.slice(0,-1);
@@ -31,5 +39,4 @@ function dgv(T)    //digito verificador
         alert("Rut Invalido");
         console.log(dv, dvComprobado);
     } 
-     
  }
