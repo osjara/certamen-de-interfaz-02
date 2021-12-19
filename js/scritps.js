@@ -36,9 +36,12 @@
             showConfirmButton: false,
             timer: 1500
           });
+          inputRut.value = "";
           inputRut.focus();
     } 
 
  }
 
     
+function enviar(){
+}
