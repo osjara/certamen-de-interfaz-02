@@ -376,6 +376,7 @@ select:active {
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
+    text-align: center;
     font-size: 1em;
     margin-top: 20px;
     display: inline-block;
