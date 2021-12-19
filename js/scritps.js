@@ -1,4 +1,5 @@
  const inputRut = document.querySelector(".rut");
+ const inputNombre = document.querySelector(".nombre");
 
  inputRut.addEventListener('change', updateRut);
 
@@ -19,8 +20,25 @@
     }
     
     if (dv == dvComprobado) {
-        alert("Rut valido");
+        Swal.fire({
+            icon: 'success',
+            title: 'Validado',
+            text: 'Rut Valido',
+            showConfirmButton: false,
+            timer: 1500
+          });
+          inputNombre.focus();
     }  else {
-        alert("Rut Invalido");
+        Swal.fire({
+            icon: 'error',
+            title: 'Invalido',
+            text: 'Rut Invalido',
+            showConfirmButton: false,
+            timer: 1500
+          });
+          inputRut.focus();
     } 
+
  }
+
+    

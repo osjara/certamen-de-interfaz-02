@@ -287,7 +287,7 @@ input:checked+.slider:before {
 
 /**fin**/
 
-.campo-sexo {
+.campo-horario {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 30px auto;
