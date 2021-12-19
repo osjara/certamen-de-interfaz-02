@@ -27,9 +27,7 @@ function dgv(T)    //digito verificador
     
     if (dv == dvComprobado) {
         alert("Rut valido");
-    } else if (dv == dvComprobado) {
-        alert("Rut valido");
-    } else {
+    }  else {
         alert("Rut Invalido");
         console.log(dv, dvComprobado);
     } 
